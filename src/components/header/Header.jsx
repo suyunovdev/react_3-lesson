@@ -44,7 +44,7 @@ const Header = () => {
             <a href="#">Новости</a>
             <a href="#">Вакансии</a>
             <a className="contact" href="#">
-              Контакты
+              Контакты asaas
             </a>
           </div>
           <div className="header-right">
