@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.naw_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 600px;
+  flex-direction: column;
+}
+.naw_main h1 {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+}
+.naw_main h1 a {
+  color: rgb(239, 124, 0);
+}
+.naw_main button {
+  border: 1px solid rgb(239, 124, 0);
+  padding: 10px 20px 10px 20px;
+  gap: 10px;
+  border-radius: 4px;
+  background: #fff;
+  transition: 0.4s all;
+  color: rgb(239, 124, 0);
+  margin-top: 32px;
+}
+.naw_main button:hover {
+  background: rgb(239, 124, 0);
+  color: #fff;
+}
+.naw_main .btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+.naw_main .btns button {
+  padding: 10px 20px 10px 20px;
+  gap: 10px;
+  border-radius: 61px;
+  opacity: 0px;
+  background: #fff;
+  color: rgb(239, 124, 0);
+  border: 1px solid rgba(0, 16, 61, 0.12);
+  transition: 0.4s all;
+}
+.naw_main .btns button:hover {
+  background: rgb(239, 124, 0);
+  color: white;
+}
+.naw_main .tovar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}/*# sourceMappingURL=Nasha.css.map */

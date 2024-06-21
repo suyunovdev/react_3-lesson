@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.person {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 20px;
+}
+.person h1 {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: left;
+}
+.person h1 a {
+  color: rgb(239, 124, 0);
+}
+.person .team-cards {
+  display: flex;
+  align-content: inherit;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.person .team-cards .kart {
+  width: 203px;
+}
+.person .team-cards .kart h3 {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  color: #2c2d2e;
+  padding-top: 12px;
+  padding-bottom: 4px;
+}
+.person .team-cards .kart p {
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  text-align: center;
+  color: #919399;
+  max-width: 203px;
+  padding-bottom: 12px;
+}
+.person .team-cards .kart a {
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  padding-top: 4px;
+  text-align: center;
+  color: #2c2d2e;
+  display: flex;
+  justify-content: center;
+}
+.person .karta-btn {
+  padding-bottom: 80px;
+}
+.person .karta-btn button {
+  background: none;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #ef7c00;
+  border: 1px solid #ef7c00;
+  padding: 10px 20px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.person .karta-btn button:hover {
+  background: #ef7c00;
+  color: #fff;
+}/*# sourceMappingURL=Komanda.css.map */

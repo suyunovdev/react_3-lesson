@@ -1,0 +1,95 @@
+.Header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 4px 32px 0px rgba(0, 16, 61, 0.1607843137);
+  z-index: 1999;
+}
+
+.header-all {
+  padding: 13px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-all .header-middle {
+  display: flex;
+  align-items: center;
+}
+.header-all .header-middle .dropdown {
+  display: flex;
+  border: none;
+  flex-direction: column;
+}
+.header-all .header-middle .dropdown button {
+  background: none;
+  border: none;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  cursor: pointer;
+  border-right: 1px solid rgba(0, 16, 61, 0.1529411765);
+  padding-right: 16px;
+}
+.header-all .header-middle .dropdown button:hover {
+  color: #ef7c00;
+}
+.header-all .header-middle .dropdown-menu {
+  background: #ffffff;
+  margin-top: 50px;
+  position: absolute;
+  border-radius: 0px, 4px, 4px;
+  box-shadow: 0px 40px 32px 0px rgba(0, 16, 61, 0.1607843137);
+  z-index: 100;
+}
+.header-all .header-middle .dropdown-menu:last-child {
+  padding-bottom: 16px;
+}
+.header-all .header-middle .dropdown-menu a {
+  padding-top: 16px;
+  border: none;
+}
+.header-all .header-middle a {
+  font-family: Montserrat;
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #2c2d2e;
+  padding-right: 16px;
+  padding-left: 16px;
+  border-right: 1px solid rgba(0, 16, 61, 0.1529411765);
+  transition: 0.2s;
+}
+.header-all .header-middle a:hover {
+  color: #ef7c00;
+}
+.header-all .header-middle .contact {
+  border: none;
+}
+.header-all .header-right {
+  display: flex;
+  align-items: center;
+}
+.header-all .header-right a {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #2c2d2e;
+  padding-right: 4px;
+  padding-left: 4px;
+  border-right: 1px solid rgba(0, 16, 61, 0.1529411765);
+  transition: 0.2s;
+}
+.header-all .header-right a:hover {
+  color: #ef7c00;
+}
+.header-all .header-right .en {
+  border: none;
+}/*# sourceMappingURL=Header.css.map */

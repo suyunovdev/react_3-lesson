@@ -5,6 +5,9 @@ import About from "./components/main/About";
 import  Product from "./components/main/Product";
 import Nasha from "./components/main/Nasha";
 import Padbor from "./components/main/Padbor";
+import Komanda from "./components/main/Komanda";
+import Novosti from "./components/main/Novosti";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -15,6 +18,10 @@ function App() {
       <Product />
       <Nasha />
       <Padbor />
+      <Komanda/>
+      <Novosti />
+      <Footer />
+      
     </div>
   );
 }
