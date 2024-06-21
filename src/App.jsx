@@ -8,6 +8,9 @@ import Padbor from "./components/main/Padbor";
 import Komanda from "./components/main/Komanda";
 import Novosti from "./components/main/Novosti";
 import Footer from "./components/footer/Footer";
+// import BackToTopButton from './BackToTopButton';
+
+
 
 function App() {
   return (
@@ -20,6 +23,8 @@ function App() {
       <Padbor />
       <Komanda/>
       <Novosti />
+  
+
       <Footer />
       
     </div>

@@ -23,4 +23,41 @@
   width: 100%;
   justify-content: space-around;
   padding: 20px;
-}/*# sourceMappingURL=Product.css.map */
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .cards {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 46px;
+    padding-bottom: 46px;
+  }
+  .cards h1 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+  }
+  .cards a {
+    color: rgb(239, 124, 0);
+  }
+  .cards .sertificate {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .cards .sertificate img {
+    width: 40%;
+  }
+  .cards .sertificate img:first-child, .cards .sertificate :last-child {
+    display: none;
+  }
+}/*# sourceMappingURL=product.css.map */

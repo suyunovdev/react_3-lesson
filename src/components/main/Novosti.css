@@ -58,4 +58,75 @@
 .News .news-btn button:hover {
   background-color: #ef7c00;
   color: #fff;
+}
+
+@media (max-width: 768px) {
+  .News .news-text h2 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    color: #2c2d2e;
+    padding-bottom: 16px;
+  }
+  .News .news-all {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .News .news-all .news-card {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .News .news-all .news-card p {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    text-align: left;
+    color: #919399;
+    padding-top: 24px;
+    padding-bottom: 8px;
+  }
+  .News .news-all .news-card h4 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #2c2d2e;
+  }
+  .News .news-all .news-card .width {
+    width: 319px;
+  }
+  .News .news-btn {
+    padding-top: 32px;
+    padding-bottom: 84px;
+  }
+  .News .news-btn button {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #ef7c00;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background: none;
+    border: 1px solid #ef7c00;
+    border-radius: 4px;
+    padding: 10px 20px;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+  .News .news-btn button:hover {
+    background-color: #ef7c00;
+    color: #fff;
+  }
 }/*# sourceMappingURL=Novosti.css.map */

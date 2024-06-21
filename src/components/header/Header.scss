@@ -92,3 +92,64 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .header-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+    .header-left {
+      margin-bottom: 20px;
+    }
+
+    .header-middle {
+      display: none;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+
+      .dropdown {
+        width: 100%;
+
+        .dropdown-toggle {
+          width: 100%;
+          text-align: left;
+        }
+
+        .dropdown-menu {
+          width: 100%;
+        }
+      }
+
+      a {
+        width: 100%;
+        text-align: left;
+      }
+
+      &.open {
+        display: flex;
+      }
+    }
+
+    .header-right {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+
+      a {
+        display: none;
+        margin-right: 10px;
+      }
+
+      .hamburger {
+        align-items: self-end;
+        padding: 20px;
+        border: none;
+        border-radius: 8px;
+        display: block;
+      }
+    }
+  }
+}

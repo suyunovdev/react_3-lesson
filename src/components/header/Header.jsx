@@ -1,12 +1,18 @@
+
+import React, { useState } from 'react';
 import logo from "../../assets/images/Logo.svg";
 import "../header/Header.scss";
-import { useState } from "react";
 
 const Header = () => {
   const [isProductDropdownOpen, setIsProductDropdownOpen] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleProductDropdown = () => {
     setIsProductDropdownOpen(!isProductDropdownOpen);
+  };
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
   return (
@@ -14,15 +20,12 @@ const Header = () => {
       <div className="container">
         <div className="header-all">
           <div className="header-left">
-            <img src={logo} alt="" />
+            <img src={logo} alt="Logo" />
           </div>
-          <div className="header-middle">
+          <div className={`header-middle ${isMobileMenuOpen ? "open" : ""}`}>
             <div className="dropdown">
               <button
-                href=""
-                className={`dropdown-toggle ${
-                  isProductDropdownOpen ? "open" : ""
-                }`}
+                className={`dropdown-toggle ${isProductDropdownOpen ? "open" : ""}`}
                 onClick={toggleProductDropdown}
               >
                 Продукция
@@ -46,9 +49,10 @@ const Header = () => {
           </div>
           <div className="header-right">
             <a href="#">RU</a>
-            <a className="en" href="#">
-              EN
-            </a>
+            <a className="en" href="#">EN</a>
+            <button className="hamburger" onClick={toggleMobileMenu}>
+              ☰
+            </button>
           </div>
         </div>
       </div>
